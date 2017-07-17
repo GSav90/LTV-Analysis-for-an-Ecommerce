@@ -1,2 +1,6 @@
 # LTV-Analysis-for-an-Ecommerce
-Conducted basic data exploration and extracted additional features to gain an overview about customers purchase patterns. - Applied multiple feature selection techniques to identify the best subsets of features for model construction.  - Built four models using the training data and selected the logistic regression model as it obtained the highest accuracy and AUC.  - To determine the length of customer subscription, applied survival analysis which outputted the probability of continued subscription of each customer at any time point of interest.  - Finally, clustered the customers and identified sleeping customers along with segments such as window shoppers and female holiday shoppers.
+Performed feature engineering and feature extraction to find the customer purchase patterns
+Feature selection techniques like PCA, greedy forward search and exhaustive search to find the most prominent feature sets
+Trained multiple models and plotted the ROC curve which helped us identify which the model giving highest accuracy and AUC.
+Performed survival analysis to find which customers remain for what length and formulate strategies to take actions for different set of customers. 
+Cluster analysis to identify customer segmentations like Window shoppers, Female holiday customers, Frequent buyers and Sleeping customers.
